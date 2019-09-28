@@ -15,4 +15,7 @@ def pop_with_args(array)
   ar.unshift(array.pop)
 end
 
-def 
+def using_shift(array)
+  array.shift
+end
+
