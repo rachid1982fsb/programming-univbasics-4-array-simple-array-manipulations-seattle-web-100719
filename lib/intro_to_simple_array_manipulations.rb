@@ -21,5 +21,5 @@ end
 
 def shift_with_args()
   ar =[array.shift]
-  ar << array.shift
+  ar.unshift(array.shift)
 end
