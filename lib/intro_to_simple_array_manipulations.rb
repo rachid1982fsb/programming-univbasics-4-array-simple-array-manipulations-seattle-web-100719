@@ -20,3 +20,6 @@ def using_shift(array)
 end
 
 def shift_with_args()
+  ar =[array.shift]
+  ar << array.shift
+end
